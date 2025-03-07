@@ -9,20 +9,25 @@
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
+            background-image: url('https://i.imgur.com/UWkE4oM.png'); /* Example bone pattern image */
+            background-repeat: repeat;
         }
         .container {
             max-width: 900px;
             margin: auto;
-            background: white;
+            background: #222;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
             text-align: center;
+            border: 10px solid transparent;
+            border-image: url('https://i.imgur.com/UWkE4oM.png') 30 round; /* Bone-themed border */
         }
         h1, h2 {
-            color: #333;
+            color: #f4f4f4;
         }
         img {
             max-width: 100%;
@@ -37,6 +42,12 @@
     <div class="container">
         <h1>Welcome to the World of Dogs!</h1>
         <img src="https://source.unsplash.com/800x400/?dog" alt="Cute dog">
+        
+        <div class="section">
+            <h2>🐶 Why We Love Dogs</h2>
+            <p>Dogs are loyal, loving, and make great companions. They have been by our side for thousands of years, helping us in work, play, and even therapy.</p>
+            <p>They can sense human emotions, provide comfort, and even assist in search-and-rescue operations.</p>
+        </div>
         
         <div class="section">
             <h2>🏆 Popular Dog Breeds</h2>
@@ -55,6 +66,38 @@
                 <img src="https://source.unsplash.com/800x400/?schnauzer" alt="Schnauzer">
                 <li>Belgian Malinois - Highly intelligent and commonly used in police work.</li>
                 <img src="https://source.unsplash.com/800x400/?belgianmalinois" alt="Belgian Malinois">
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🦴 Fun Dog Facts</h2>
+            <p>Did you know? Dogs have an incredible sense of smell, up to 100,000 times better than humans!</p>
+            <p>Dogs belong to the biological family <strong>Canidae</strong>, which includes wolves, foxes, and other dog-like mammals.</p>
+            <p>Some dogs, like Border Collies, can understand up to 1,000 words!</p>
+            <p>Dogs dream just like humans! If you see a dog twitching in its sleep, it might be dreaming of running or playing.</p>
+        </div>
+        
+        <div class="section">
+            <h2>🐕 Dog Species and Wild Relatives</h2>
+            <p>While domesticated dogs (<strong>Canis lupus familiaris</strong>) are our loyal pets, their wild relatives include:</p>
+            <ul>
+                <li><strong>Gray Wolf</strong> (<em>Canis lupus</em>) - The ancestor of all modern dogs.</li>
+                <li><strong>Red Fox</strong> (<em>Vulpes vulpes</em>) - A distant cousin known for its cunning nature.</li>
+                <li><strong>African Wild Dog</strong> (<em>Lycaon pictus</em>) - A highly social and skilled hunter.</li>
+                <li><strong>Coyote</strong> (<em>Canis latrans</em>) - Found mainly in North America, known for its adaptability.</li>
+                <li><strong>Dhole</strong> (<em>Cuon alpinus</em>) - A lesser-known wild dog species from Asia.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>🐾 Taking Care of Your Dog</h2>
+            <p>Owning a dog is a big responsibility. Here are some essential tips for a happy and healthy pup:</p>
+            <ul>
+                <li>🥩 <strong>Proper Nutrition</strong> - Provide high-quality dog food with essential nutrients.</li>
+                <li>🏃 <strong>Exercise</strong> - Daily walks and playtime keep dogs fit and mentally stimulated.</li>
+                <li>🩺 <strong>Regular Vet Checkups</strong> - Routine vet visits help catch health issues early.</li>
+                <li>🛁 <strong>Grooming</strong> - Brush their fur, trim their nails, and keep their coat clean.</li>
+                <li>💙 <strong>Love & Affection</strong> - Dogs thrive on companionship and attention!</li>
             </ul>
         </div>
     </div>
