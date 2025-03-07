@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Dogs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the World of Dogs!</h1>
+        <img src="https://source.unsplash.com/800x400/?dog" alt="Cute dog">
+        
+        <div class="section">
+            <h2>🏆 Popular Dog Breeds</h2>
+            <ul>
+                <li>Labrador Retriever - Friendly and intelligent, great for families.</li>
+                <img src="https://source.unsplash.com/800x400/?labrador" alt="Labrador Retriever">
+                <li>Golden Retriever - Playful and affectionate, excellent therapy dogs.</li>
+                <img src="https://source.unsplash.com/800x400/?goldenretriever" alt="Golden Retriever">
+                <li>Poodle - Hypoallergenic and intelligent, great for agility training.</li>
+                <img src="https://source.unsplash.com/800x400/?poodle" alt="Poodle">
+                <li>Shih Tzu - Small and affectionate, known for their long, flowing coat.</li>
+                <img src="https://source.unsplash.com/800x400/?shihtzu" alt="Shih Tzu">
+                <li>Boxer - Energetic and strong, great family dogs.</li>
+                <img src="https://source.unsplash.com/800x400/?boxer-dog" alt="Boxer">
+                <li>Schnauzer - Alert and spirited, known for their distinct beard and eyebrows.</li>
+                <img src="https://source.unsplash.com/800x400/?schnauzer" alt="Schnauzer">
+                <li>Belgian Malinois - Highly intelligent and commonly used in police work.</li>
+                <img src="https://source.unsplash.com/800x400/?belgianmalinois" alt="Belgian Malinois">
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
